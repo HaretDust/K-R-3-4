@@ -9,10 +9,10 @@ int main()
 	int i = -2147483648;
 	char data[40] ;
 	
-  printf("%d\n",i);  //输出，确认数字正确性
+  	printf("%d\n",i);  //输出，确认数字正确性
 	u_itoa( i , data);
 	
-  return 0;
+	return 0;
 }
 
 void u_itoa(int n,char s[]) 
